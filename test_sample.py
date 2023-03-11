@@ -9,7 +9,8 @@ class TestSampleMethods(unittest.TestCase):
     """
     Test harness
     """
-
+    
+    
     def test_increment_by_two(self):
         """
         Test increments
@@ -18,6 +19,7 @@ class TestSampleMethods(unittest.TestCase):
         self.assertEqual(increment_by_two(0), 2)
         self.assertEqual(increment_by_two(3), 5)
 
+        
     def test_increment_by_three(self):
         """
         Test increments
